@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b5a1d2f-5f69-4bf2-b27f-06c8adccfb33" name="Default Changelist" comment="" />
+    <list default="true" id="3b5a1d2f-5f69-4bf2-b27f-06c8adccfb33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EditMainInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EditMainInformation.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,9 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EditMainInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="447">
+              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
+                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
                 <element signature="method#isElementPresent#0;class#EditMainInformation#0" />
                 <element signature="e#1886#1942#0" />
                 <element signature="method#isAlertPresent#0;class#EditMainInformation#0" />
@@ -40,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Enter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="131" />
+              <caret line="31" column="20" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="131" />
             </state>
           </provider>
         </entry>
@@ -53,6 +58,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,6 +101,7 @@
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -144,6 +153,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,26 +225,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549640095810</updated>
-      <workItem from="1549640105623" duration="8630000" />
+      <workItem from="1549640105623" duration="12201000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EditMainInformation_(1) - 2019.02.08 at 23h 33m 29s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.08 at 23h 37m 34s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.08 at 23h 38m 33s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.08 at 23h 41m 19s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.08 at 23h 43m 45s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="EditMainInformation_(1) - 2019.02.08 at 23h 52m 33s.xml">
       <configuration name="EditMainInformation (1)" configurationId="TestNG" />
     </history-entry>
@@ -250,9 +245,24 @@
     <history-entry file="EditMainInformation_(1) - 2019.02.09 at 00h 05m 26s.xml">
       <configuration name="EditMainInformation (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 00h 15m 50s.xml">
+      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 00h 17m 09s.xml">
+      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 00h 37m 45s.xml">
+      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 00h 49m 54s.xml">
+      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 00h 51m 03s.xml">
+      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8630000" />
+    <option name="totallyTimeSpent" value="12201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -266,13 +276,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.33094555" />
+      <window_info anchor="bottom" id="Messages" weight="0.33002833" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32664755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48137537" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -331,15 +341,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Enter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="131" />
+          <caret line="31" column="20" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EditMainInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="447">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
+            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
             <element signature="method#isElementPresent#0;class#EditMainInformation#0" />
             <element signature="e#1886#1942#0" />
             <element signature="method#isAlertPresent#0;class#EditMainInformation#0" />
