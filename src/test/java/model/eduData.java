@@ -1,8 +1,8 @@
-package trainig.profileInformation;
+package model;
 
 public class eduData {
-    private final String facultet;
-    private final String dpt;
+    public final String facultet;
+    public final String dpt;
 
     public eduData(String facultet, String dpt) {
         this.facultet = facultet;

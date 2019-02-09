@@ -1,10 +1,10 @@
-package trainig.profileInformation;
+package model;
 
 public class mainData {
-    private final String lastName;
-    private final String firstName;
-    private final String nativeName;
-    private final String number;
+    public final String lastName;
+    public final String firstName;
+    public final String nativeName;
+    public final String number;
 
     public mainData(String lastName, String firstName, String nativeName, String number) {
         this.lastName = lastName;
