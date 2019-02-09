@@ -1,15 +1,14 @@
+package com.example.tests;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Enter {
+public class UntitledTestCase {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -17,23 +16,15 @@ public class Enter {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Documents\\GitHub\\drivers\\Chrome\\chromedriver.exe");
-    driver = new ChromeDriver();
+    driver = new FirefoxDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
   @Test
-  public void testEnter() throws Exception {
-    driver.get("https://www.training.by/");
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='О тренингах'])[1]/following::button[1]")).click();
-    driver.findElement(By.id("Name")).click();
-    driver.findElement(By.id("Name")).clear();
-    driver.findElement(By.id("Name")).sendKeys("trainigby@bk.ru");
-    driver.findElement(By.id("Password")).click();
-    driver.findElement(By.id("Password")).clear();
-    driver.findElement(By.id("Password")).sendKeys("Astana2019");
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Войти'])[2]/following::button[2]")).click();
+  public void testUntitledTestCase() throws Exception {
+    driver.get("https://training.by/UserProfile#/Edit/168992");
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Отмена'])[5]/following::button[1]")).click();
   }
 
   @AfterClass(alwaysRun = true)
