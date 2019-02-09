@@ -15,12 +15,12 @@ public class HelperBase {
         this.driver = driver;
     }
 
-    protected void type(String text, By locator) {
+    public void type(String text, By locator) {
         driver.findElement(locator).clear();
         driver.findElement(locator).sendKeys(text);
     }
 
-    protected void click(By by) {
+    public void click(By by) {
         driver.findElement(by).click();
     }
 

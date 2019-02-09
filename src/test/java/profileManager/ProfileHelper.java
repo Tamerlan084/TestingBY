@@ -23,8 +23,8 @@ public class ProfileHelper extends HelperBase{
         click(By.xpath("//a[contains(text(),'Редактировать')]"));
     }
 
-    public void goToProfile() {
+    public void goToProfile(By nameButton) {
         click(By.className("profile-name"));
-        click(By.linkText("Профиль"));
+        click(nameButton);
     }
 }

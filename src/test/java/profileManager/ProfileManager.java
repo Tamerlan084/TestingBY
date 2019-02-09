@@ -13,6 +13,7 @@ public class ProfileManager {
     public ProfileHelper profileHelper;
     public  EducationHelper eduHlp;
     public  MainInformationHelper mainInfHlp;
+    public MainPageHelper mainPgHlp;
     public boolean acceptNextAlert = true;
     public WebDriver driver;
     private StringBuffer verificationErrors = new StringBuffer();
@@ -26,7 +27,7 @@ public class ProfileManager {
         }
     }
 
-   
+
 
     private String closeAlertAndGetItsText() {
         try {
@@ -50,6 +51,7 @@ public class ProfileManager {
         sessionHlp = new SessionHelper(driver);
         profileHelper = new ProfileHelper(driver);
         mainInfHlp = new MainInformationHelper(driver);
+        mainPgHlp = new MainPageHelper(driver);
         eduHlp = new  EducationHelper(driver);
                 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         sessionHlp.login("trainigby@bk.ru", "Astana2019");
@@ -77,5 +79,8 @@ public class ProfileManager {
     public SkillsHelper getSkillsHelper() {
         return skillsHelper;
     }
+
+    public MainPageHelper getMainPgHlp() { return  mainPgHlp; }
+
 
 }

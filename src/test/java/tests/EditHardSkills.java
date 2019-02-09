@@ -8,7 +8,7 @@ public class EditHardSkills extends BaseClass {
 
   @Test
   public void testEditHardSkills() throws Exception {
-    profMen.getProfileHelper().goToProfile();
+    profMen.getProfileHelper().goToProfile(By.linkText("Профиль"));
     profMen.getProfileHelper().editProfile();
     JavascriptExecutor js = (JavascriptExecutor) profMen.getProfileHelper().driver;
     profMen.getSkillsHelper().Scroll(js, "window.scrollBy(0,1000)");
