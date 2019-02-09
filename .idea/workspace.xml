@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3b5a1d2f-5f69-4bf2-b27f-06c8adccfb33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EditMainInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EditMainInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EditMainInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EditMainInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/profileManager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/profileManager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/profileManager/ProfileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/profileManager/ProfileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EditHardSkills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EditHardSkills.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EditMainInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EditMainInformation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,10 +21,136 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EditMainInformation.java">
+        <entry file="uml://JAVA/profileManager.SessionHelper">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>profileManager.SessionHelper</OriginalElement>
+              <nodes>
+                <node x="0.0" y="109.0">profileManager.ProfileHelper</node>
+                <node x="424.0" y="109.0">profileManager.SessionHelper</node>
+                <node x="269.4083333333334" y="0.0">profileManager.HelperBase</node>
+                <node x="138.00000000000003" y="109.0">profileManager.SkillsHelper</node>
+                <node x="567.0" y="109.0">profileManager.MainInformationHelper</node>
+                <node x="248.83333333333334" y="238.0">profileManager.ProfileManager</node>
+                <node x="336.8333333333333" y="396.0">tests.EditHardSkills</node>
+                <node x="268.0" y="109.0">profileManager.EducationHelper</node>
+                <node x="159.83333333333331" y="396.0">tests.EditMainInformation</node>
+                <node x="263.83333333333337" y="317.0">tests.BaseClass</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="tests.EditMainInformation" target="tests.BaseClass">
+                  <point x="39.25000000000006" y="-14.5" />
+                  <point x="277.58333333333337" y="376.0" />
+                  <point x="300.95833333333337" y="376.0" />
+                  <point x="-12.375" y="14.5" />
+                </edge>
+                <edge source="profileManager.EducationHelper" target="profileManager.HelperBase">
+                  <point x="34.0" y="-14.5" />
+                  <point x="370.0" y="89.0" />
+                  <point x="328.8083333333334" y="89.0" />
+                  <point x="5.399999999999977" y="14.5" />
+                </edge>
+                <edge source="tests.EditHardSkills" target="tests.BaseClass">
+                  <point x="30.25" y="-14.5" />
+                  <point x="427.5833333333333" y="366.0" />
+                  <point x="350.45833333333337" y="366.0" />
+                  <point x="37.125" y="14.5" />
+                </edge>
+                <edge source="tests.BaseClass" target="profileManager.ProfileManager">
+                  <point x="-24.75" y="-14.5" />
+                  <point x="288.58333333333337" y="292.0" />
+                  <point x="281.08333333333337" y="292.0" />
+                  <point x="-32.25" y="14.5" />
+                </edge>
+                <edge source="profileManager.SessionHelper" target="profileManager.HelperBase">
+                  <point x="30.75" y="-14.5" />
+                  <point x="516.25" y="69.0" />
+                  <point x="350.4083333333334" y="69.0" />
+                  <point x="27.0" y="14.5" />
+                </edge>
+                <edge source="profileManager.ProfileHelper" target="profileManager.HelperBase">
+                  <point x="29.5" y="-14.5" />
+                  <point x="88.5" y="59.0" />
+                  <point x="285.6083333333334" y="59.0" />
+                  <point x="-37.80000000000001" y="14.5" />
+                </edge>
+                <edge source="profileManager.ProfileManager" target="profileManager.SkillsHelper">
+                  <point x="-13.821428571428555" y="-14.5" />
+                  <point x="299.5119047619048" y="168.0" />
+                  <point x="229.6666666666667" y="168.0" />
+                  <point x="36.666666666666686" y="14.5" />
+                </edge>
+                <edge source="profileManager.ProfileManager" target="profileManager.ProfileHelper">
+                  <point x="-41.46428571428572" y="-14.5" />
+                  <point x="271.8690476190476" y="198.0" />
+                  <point x="98.33333333333337" y="198.0" />
+                  <point x="39.33333333333337" y="14.5" />
+                </edge>
+                <edge source="profileManager.ProfileManager" target="profileManager.SessionHelper">
+                  <point x="32.25" y="-14.5" />
+                  <point x="345.58333333333337" y="188.0" />
+                  <point x="516.25" y="188.0" />
+                  <point x="30.75" y="14.5" />
+                </edge>
+                <edge source="profileManager.ProfileManager" target="profileManager.MainInformationHelper">
+                  <point x="41.46428571428572" y="-14.5" />
+                  <point x="354.79761904761904" y="198.0" />
+                  <point x="595.6666666666667" y="198.0" />
+                  <point x="-57.333333333333336" y="14.5" />
+                </edge>
+                <edge source="profileManager.ProfileManager" target="profileManager.EducationHelper">
+                  <point x="4.607142857142833" y="-14.5" />
+                  <point x="317.94047619047615" y="158.0" />
+                  <point x="336.0" y="158.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="profileManager.MainInformationHelper" target="profileManager.HelperBase">
+                  <point x="43.0" y="-14.5" />
+                  <point x="696.0" y="49.0" />
+                  <point x="372.0083333333334" y="49.0" />
+                  <point x="48.599999999999966" y="14.5" />
+                </edge>
+                <edge source="profileManager.SkillsHelper" target="profileManager.HelperBase">
+                  <point x="-27.5" y="-14.5" />
+                  <point x="165.50000000000003" y="69.0" />
+                  <point x="296.4083333333334" y="69.0" />
+                  <point x="-27.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="220.0" />
+              <SelectedNodes>
+                <node>profileManager.SessionHelper</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2144#2145#0" expanded="true" />
+                <element signature="e#2215#2216#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
+                <element signature="e#2391#2392#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/CompareTrainingsWithEpamRu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,20 +158,75 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EditHardSkills.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/EditHardSkills.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="84" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/MainPageHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="136" column="12" lean-forward="true" selection-start-line="136" selection-start-column="6" selection-end-line="137" selection-end-column="51" />
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/ProfileHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/EditMainInformation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,9 +265,26 @@
         <option value="$PROJECT_DIR$/src/test/java/trainig/profileInformation/fillMainInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/editHardSkills.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EditMainInformation.java" />
         <option value="$PROJECT_DIR$/src/test/java/EditHardSkills.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EditMainInformation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProfileManagar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/eduData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mainData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/ProfileManagar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/mainData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/EditMainInformation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/EducationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/EditHardSkills.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/MainInformationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/SkillsHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/MainPageHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/ProfileHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/CompareTrainingsWithEpamRu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/profileManager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BaseClass.java" />
       </list>
     </option>
   </component>
@@ -112,7 +312,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
+    <option name="x" value="486" />
+    <option name="y" value="-33" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -155,6 +356,22 @@
             </path>
             <path>
               <item name="TestingBY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingBY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="profileManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingBY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingBY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingBY" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -169,15 +386,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/profileManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="profileManager" />
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="profileManager" />
       <recent name="" />
     </key>
   </component>
@@ -193,21 +412,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EditHardSkills">
-    <configuration name="EditHardSkills" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CompareTrainingsWithEpamRu">
+    <configuration name="CompareTrainingsWithEpamRu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestingBY" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EditHardSkills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CompareTrainingsWithEpamRu" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditMainInformation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditHardSkills" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestingBY" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EditMainInformation" />
+      <option name="MAIN_CLASS_NAME" value="tests.EditHardSkills" />
       <properties />
       <listeners />
       <method v="2">
@@ -230,10 +455,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditionEducation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditMainInformation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestingBY" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EditionEducation" />
+      <option name="MAIN_CLASS_NAME" value="tests.EditMainInformation" />
       <properties />
       <listeners />
       <method v="2">
@@ -252,11 +477,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CompareTrainingsWithEpamRu" />
         <item itemvalue="TestNG.EditHardSkills" />
         <item itemvalue="TestNG.EditMainInformation (1)" />
-        <item itemvalue="TestNG.editHardSkills" />
         <item itemvalue="TestNG.EditMainInformation" />
-        <item itemvalue="TestNG.EditionEducation" />
+        <item itemvalue="TestNG.editHardSkills" />
       </list>
     </recent_temporary>
   </component>
@@ -270,79 +495,117 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549640095810</updated>
-      <workItem from="1549640105623" duration="43249000" />
+      <workItem from="1549640105623" duration="59462000" />
     </task>
+    <task id="LOCAL-00001" summary="Сделан базовый класс и создан класс который редактирует &quot;проф навыки&quot;">
+      <created>1549729232058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549729232058</updated>
+    </task>
+    <task id="LOCAL-00002" summary="класс который редактирует &quot;проф навыки&quot;">
+      <created>1549729271181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549729271181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 21h 44m 52s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 21h 47m 38s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 21h 51m 03s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditMainInformation_(1) - 2019.02.09 at 21h 56m 09s.xml">
-      <configuration name="EditMainInformation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditHardSkills - 2019.02.09 at 21h 57m 13s.xml">
-      <configuration name="EditHardSkills" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditHardSkills - 2019.02.09 at 21h 58m 11s.xml">
-      <configuration name="EditHardSkills" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditHardSkills - 2019.02.09 at 21h 59m 31s.xml">
-      <configuration name="EditHardSkills" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditHardSkills - 2019.02.09 at 22h 02m 20s.xml">
-      <configuration name="EditHardSkills" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EditHardSkills - 2019.02.09 at 22h 13m 02s.xml">
-      <configuration name="EditHardSkills" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="EditHardSkills - 2019.02.09 at 22h 14m 57s.xml">
       <configuration name="EditHardSkills" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="EditMainInformation - 2019.02.10 at 00h 43m 58s.xml">
+      <configuration name="EditMainInformation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation - 2019.02.10 at 00h 45m 09s.xml">
+      <configuration name="EditMainInformation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation - 2019.02.10 at 00h 47m 20s.xml">
+      <configuration name="EditMainInformation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation - 2019.02.10 at 00h 54m 00s.xml">
+      <configuration name="EditMainInformation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditMainInformation - 2019.02.10 at 00h 55m 07s.xml">
+      <configuration name="EditMainInformation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditHardSkills - 2019.02.10 at 01h 23m 51s.xml">
+      <configuration name="EditHardSkills" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditHardSkills - 2019.02.10 at 01h 43m 26s.xml">
+      <configuration name="EditHardSkills" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompareTrainingsWithEpamRu - 2019.02.10 at 02h 31m 34s.xml">
+      <configuration name="CompareTrainingsWithEpamRu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompareTrainingsWithEpamRu - 2019.02.10 at 02h 45m 50s.xml">
+      <configuration name="CompareTrainingsWithEpamRu" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43249000" />
+    <option name="totallyTimeSpent" value="59462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.33002833" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48016998" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" weight="0.54496646" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Learn" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.23825504" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067115" side_tool="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49932885" weight="0.33002833" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.48016998" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3937677" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.54496646" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Сделан базовый класс и создан класс который редактирует &quot;проф навыки&quot;" />
+    <MESSAGE value="класс который редактирует &quot;проф навыки&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="класс который редактирует &quot;проф навыки&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tests/EditMainInformation.java">
@@ -424,44 +687,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trainig/profileInformation/mainData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/eduData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trainig/profileInformation/eduData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/mainData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/EducationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="136" column="12" lean-forward="true" selection-start-line="136" selection-start-column="6" selection-end-line="137" selection-end-column="51" />
+        <state relative-caret-position="221">
+          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/MainInformationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditMainInformation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/SkillsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditHardSkills.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/EditMainInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/profileManager.SessionHelper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>profileManager.SessionHelper</OriginalElement>
+          <nodes>
+            <node x="0.0" y="109.0">profileManager.ProfileHelper</node>
+            <node x="424.0" y="109.0">profileManager.SessionHelper</node>
+            <node x="269.4083333333334" y="0.0">profileManager.HelperBase</node>
+            <node x="138.00000000000003" y="109.0">profileManager.SkillsHelper</node>
+            <node x="567.0" y="109.0">profileManager.MainInformationHelper</node>
+            <node x="248.83333333333334" y="238.0">profileManager.ProfileManager</node>
+            <node x="336.8333333333333" y="396.0">tests.EditHardSkills</node>
+            <node x="268.0" y="109.0">profileManager.EducationHelper</node>
+            <node x="159.83333333333331" y="396.0">tests.EditMainInformation</node>
+            <node x="263.83333333333337" y="317.0">tests.BaseClass</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="tests.EditMainInformation" target="tests.BaseClass">
+              <point x="39.25000000000006" y="-14.5" />
+              <point x="277.58333333333337" y="376.0" />
+              <point x="300.95833333333337" y="376.0" />
+              <point x="-12.375" y="14.5" />
+            </edge>
+            <edge source="profileManager.EducationHelper" target="profileManager.HelperBase">
+              <point x="34.0" y="-14.5" />
+              <point x="370.0" y="89.0" />
+              <point x="328.8083333333334" y="89.0" />
+              <point x="5.399999999999977" y="14.5" />
+            </edge>
+            <edge source="tests.EditHardSkills" target="tests.BaseClass">
+              <point x="30.25" y="-14.5" />
+              <point x="427.5833333333333" y="366.0" />
+              <point x="350.45833333333337" y="366.0" />
+              <point x="37.125" y="14.5" />
+            </edge>
+            <edge source="tests.BaseClass" target="profileManager.ProfileManager">
+              <point x="-24.75" y="-14.5" />
+              <point x="288.58333333333337" y="292.0" />
+              <point x="281.08333333333337" y="292.0" />
+              <point x="-32.25" y="14.5" />
+            </edge>
+            <edge source="profileManager.SessionHelper" target="profileManager.HelperBase">
+              <point x="30.75" y="-14.5" />
+              <point x="516.25" y="69.0" />
+              <point x="350.4083333333334" y="69.0" />
+              <point x="27.0" y="14.5" />
+            </edge>
+            <edge source="profileManager.ProfileHelper" target="profileManager.HelperBase">
+              <point x="29.5" y="-14.5" />
+              <point x="88.5" y="59.0" />
+              <point x="285.6083333333334" y="59.0" />
+              <point x="-37.80000000000001" y="14.5" />
+            </edge>
+            <edge source="profileManager.ProfileManager" target="profileManager.SkillsHelper">
+              <point x="-13.821428571428555" y="-14.5" />
+              <point x="299.5119047619048" y="168.0" />
+              <point x="229.6666666666667" y="168.0" />
+              <point x="36.666666666666686" y="14.5" />
+            </edge>
+            <edge source="profileManager.ProfileManager" target="profileManager.ProfileHelper">
+              <point x="-41.46428571428572" y="-14.5" />
+              <point x="271.8690476190476" y="198.0" />
+              <point x="98.33333333333337" y="198.0" />
+              <point x="39.33333333333337" y="14.5" />
+            </edge>
+            <edge source="profileManager.ProfileManager" target="profileManager.SessionHelper">
+              <point x="32.25" y="-14.5" />
+              <point x="345.58333333333337" y="188.0" />
+              <point x="516.25" y="188.0" />
+              <point x="30.75" y="14.5" />
+            </edge>
+            <edge source="profileManager.ProfileManager" target="profileManager.MainInformationHelper">
+              <point x="41.46428571428572" y="-14.5" />
+              <point x="354.79761904761904" y="198.0" />
+              <point x="595.6666666666667" y="198.0" />
+              <point x="-57.333333333333336" y="14.5" />
+            </edge>
+            <edge source="profileManager.ProfileManager" target="profileManager.EducationHelper">
+              <point x="4.607142857142833" y="-14.5" />
+              <point x="317.94047619047615" y="158.0" />
+              <point x="336.0" y="158.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="profileManager.MainInformationHelper" target="profileManager.HelperBase">
+              <point x="43.0" y="-14.5" />
+              <point x="696.0" y="49.0" />
+              <point x="372.0083333333334" y="49.0" />
+              <point x="48.599999999999966" y="14.5" />
+            </edge>
+            <edge source="profileManager.SkillsHelper" target="profileManager.HelperBase">
+              <point x="-27.5" y="-14.5" />
+              <point x="165.50000000000003" y="69.0" />
+              <point x="296.4083333333334" y="69.0" />
+              <point x="-27.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="220.0" />
+          <SelectedNodes>
+            <node>profileManager.SessionHelper</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/EditHardSkills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/ProfileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/ProfileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/profileManager/MainPageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="84" />
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/CompareTrainingsWithEpamRu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
