@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import profileManager.ProfileManager;
@@ -7,7 +8,7 @@ import profileManager.ProfileManager;
 
 public class BaseClass {
 
-    public final ProfileManager profMen = new ProfileManager();
+    public final ProfileManager profMen = new ProfileManager(BrowserType.IE);
 
     @BeforeClass(alwaysRun = true)
     public void setUp()  {

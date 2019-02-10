@@ -23,7 +23,7 @@ public class SessionHelper extends HelperBase{
         type(email, By.id("Name"));
         click(By.id("Password"));
         type(password, By.id("Password"));
-        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Войти'])[2]/following::button[2]"));
+        click(By.xpath("//button[@type=\"submit\"]"));
         }
 
 
