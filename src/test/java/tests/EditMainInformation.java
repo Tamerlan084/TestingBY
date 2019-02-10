@@ -13,7 +13,7 @@ public class EditMainInformation extends BaseClass {
   public void testEditMainInformation() throws Exception {
     profMen.getProfileHelper().goToProfile(By.linkText("Профиль"));
     profMen.getProfileHelper().editProfile();
-    profMen.getMainInformationHelper().mainInformation(new mainData("Shambulova", "Aya", "Itishniik", "1024568936"));
+    profMen.getMainInformationHelper().mainInformation(new mainData("Zhabassov", "Tamer", "Energetik", "7024147856"));
     profMen.getEduHlp().editEducation();
     //checkIfcheckbox();
    // editOtherUniversity();

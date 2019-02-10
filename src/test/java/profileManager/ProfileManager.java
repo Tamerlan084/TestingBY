@@ -11,16 +11,17 @@ import java.util.concurrent.TimeUnit;
 import static org.testng.Assert.fail;
 
 public class ProfileManager {
-    public SkillsHelper skillsHelper;
+    private SkillsHelper skillsHelper;
     private SessionHelper sessionHlp;
-    public ProfileHelper profileHelper;
-    public  EducationHelper eduHlp;
-    public  MainInformationHelper mainInfHlp;
-    public MainPageHelper mainPgHlp;
-    public boolean acceptNextAlert = true;
-    public WebDriver driver;
+    private ProfileHelper profileHelper;
+    private  EducationHelper eduHlp;
+    private  MainInformationHelper mainInfHlp;
+    private MainPageHelper mainPgHlp;
+    private boolean acceptNextAlert = true;
+    private WebDriver driver;
     private StringBuffer verificationErrors = new StringBuffer();
-    String browser;
+
+    private String browser;
 
     public ProfileManager(String browser) {
         this.browser = browser;
@@ -54,10 +55,10 @@ public class ProfileManager {
     }
 
     public void init() {
-        if (browser == BrowserType.CHROME) {
+        if (browser.equals(BrowserType.CHROME)) {
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Documents\\GitHub\\drivers\\Chrom\\chromedriver.exe");
             driver = new ChromeDriver();
-        } else if (browser == BrowserType.FIREFOX) {
+        } else if (browser.equals(BrowserType.FIREFOX)) {
             System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lenovo\\Documents\\GitHub\\drivers\\Firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
         }

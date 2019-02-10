@@ -8,7 +8,7 @@ import profileManager.ProfileManager;
 
 public class BaseClass {
 
-    public final ProfileManager profMen = new ProfileManager(BrowserType.IE);
+    public final ProfileManager profMen = new ProfileManager(BrowserType.CHROME);
 
     @BeforeClass(alwaysRun = true)
     public void setUp()  {

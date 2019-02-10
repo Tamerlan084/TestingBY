@@ -4,8 +4,7 @@ import model.mainData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class MainInformationHelper extends HelperBase{
-
+public class MainInformationHelper extends HelperBase {
 
 
     public MainInformationHelper(WebDriver driver) {
@@ -21,11 +20,18 @@ public class MainInformationHelper extends HelperBase{
     }
 
     private void editMobileNumber(String number) {
-        type(number,By.name("mobilePhone"));
+        if (number != null) {
+
+            String exisitingText = driver.findElement(By.name("mobilePhone")).getAttribute("value");
+            if (!number.equals(exisitingText)) {
+                type(number, By.name("mobilePhone"));
+            }
+        }
     }
 
+
     private void editNativeName(String nativeName) {
-        type(nativeName,By.name("nativeName"));
+        type(nativeName, By.name("nativeName"));
 
     }
 
